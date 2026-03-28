@@ -3051,3 +3051,19 @@ a, button, .ripple-card, .nav-link, .social-link {
         height: 40px;
     }
 }
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    background: #562797;
+    color: #ffffff;
+    padding: 12px 16px;
+    z-index: 10000;
+    text-decoration: none;
+    border-radius: 0 0 8px 8px;
+}
+
+.skip-link:focus {
+    left: 20px;
+    top: 20px;
+}
